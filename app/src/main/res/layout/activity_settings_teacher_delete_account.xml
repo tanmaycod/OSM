@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor"
+    tools:context=".Teacher.SettingsTeacherDeleteAccount">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text_background"
+            android:id="@+id/et_password1"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="50dp"
+            android:hint="Enter Password"
+            android:textColor="?attr/textColor"
+            android:textColorHint="?attr/hintTextColor"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:background="@drawable/edit_text_background"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:id="@+id/et_password1Confirm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:hint="Re Enter Password"
+            android:textColor="?attr/textColor"
+            android:textColorHint="?attr/hintTextColor"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/registeruser"
+            android:text="Delete Account"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:id="@+id/btn_deleteMyAccount"
+            />
+    </LinearLayout>
+
+</ScrollView>

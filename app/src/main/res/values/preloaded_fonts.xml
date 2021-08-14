@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/enriqueta</item>
+        <item>@font/finger_paint</item>
+        <item>@font/fredericka_the_great</item>
+        <item>@font/pacifico</item>
+        <item>@font/rasa</item>
+        <item>@font/walter_turncoat</item>
+    </array>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1065627394493",
+    "firebase_url": "https://osm-learnwell.firebaseio.com",
+    "project_id": "osm-learnwell",
+    "storage_bucket": "osm-learnwell.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065627394493:android:12f785961a87b2284fb2d4",
+        "android_client_info": {
+          "package_name": "com.example.osm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065627394493-5405350ufso694mlndm3mj9mammnugtr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE8kjL4e24Wtz9IjCFKq_SEyC9Y6ODsL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065627394493-5405350ufso694mlndm3mj9mammnugtr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

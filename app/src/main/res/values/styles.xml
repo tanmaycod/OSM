@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <!-- Dark theme......... -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#90CAF9</item>
+        <item name="colorAccent">#E91E63</item>
+        <item name="backgroundColor">#454545</item>
+        <item name="toolbarColor">#535353</item>
+        <item name="textColor">#FFFFFF</item>
+        <item name="textColorHeading">#90caf9</item>
+        <item name="hintTextColor">#BCB0B0</item>
+        <item name="viewColor">#BCB0B0</item>
+        <item name="cardColor">#535353</item>
+        <item name="endColor">#455a64</item>
+        <item name="bgForLoginEt">#90caf9</item>
+    </style>
+
+    <!-- Light theme......... -->
+    <style name="LightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#90CAF9</item>
+        <item name="colorAccent">#E91E63</item>
+        <item name="backgroundColor">#DFDFDF</item>
+        <item name="toolbarColor">#2196F3</item>
+        <item name="textColor">#434343</item>
+        <item name="textColorHeading">#2196F3</item>
+        <item name="hintTextColor">#6C6C6C</item>
+        <item name="viewColor">#959292</item>
+        <item name="cardColor">#DFDFDF</item>
+        <item name="endColor">#DFDFDF</item>
+        <item name="bgForLoginEt">#AFAFAF</item>
+    </style>
+
+
+
+    <style name="profileStyledBackButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/profile_back_button</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">50dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:drawableLeft">@drawable/back_to_home_button</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:minWidth">250dp</item>
+    </style>
+</resources>
